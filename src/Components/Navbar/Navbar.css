@@ -1,0 +1,44 @@
+header {
+    box-shadow: 2px 0px 15px black;
+}
+
+.imgLogo {
+    height: 4rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.dark {
+    background-color: #151816;
+    color: white;
+}
+
+.light {
+    background-color: #f0f0f0;
+}
+
+
+li{
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+li:hover{
+    color: #c58518;
+}
+
+.btn {
+    margin: 1rem;
+}
+
+.menuNav {
+    padding: 0px;
+    margin: auto;
+}
